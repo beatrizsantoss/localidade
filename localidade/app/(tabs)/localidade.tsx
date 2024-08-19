@@ -7,7 +7,7 @@ export default function Localidade(){
     return(
     <View style={styles.container}>
         <Text style={styles.titulo}>Página Localidade</Text>
-        <TouchableOpacity style={styles.botao} onPress={() => router.push('/(tabs)/home')}>
+        <TouchableOpacity style={styles.botao} onPress={() => router.push('/home')}>
         <Text style={styles.textobotao}> Voltar</Text>
     </TouchableOpacity>
     </View>

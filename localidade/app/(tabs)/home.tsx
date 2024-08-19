@@ -7,7 +7,7 @@ export default function Home(){
     return(
     <View style={styles.container}>
         <Text style={styles.titulo}>Página Principal</Text>
-        <TouchableOpacity style={styles.botao} onPress={() => router.push('/(tabs)/localidade')}>
+        <TouchableOpacity style={styles.botao} onPress={() => router.push('/localidade')}>
         <Text style={styles.textobotao}> Entrar</Text>
     </TouchableOpacity>
     </View>
