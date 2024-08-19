@@ -21,6 +21,7 @@ export default function Localidade(){
         titulo: {
             fontSize: 40,
             textAlign: 'left',
+            fontFamily: 'Urbanist_400Regular',
         },
         botao: {
             backgroundColor: '#4169E1',

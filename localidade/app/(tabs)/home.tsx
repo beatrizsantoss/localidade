@@ -1,8 +1,15 @@
 import { View, Text, TouchableOpacity, Image, StyleSheet, Platform } from 'react-native';
 import {useRouter} from 'expo-router';
 
+//fonte
+import { useFonts, Urbanist_400Regular, Urbanist_700Bold } from '@expo-google-fonts/urbanist';
+
 export default function Home(){
     const router= useRouter();
+
+    const [fontsLoaded] = useFonts({Urbanist_400Regular, 
+        Urbanist_700Bold,
+    })
 
     return(
     <View style={styles.container}>
@@ -21,6 +28,7 @@ export default function Home(){
         titulo: {
             fontSize: 40,
             textAlign: 'left',
+            fontFamily: 'Urbanist_400Regular',
         },
         botao: {
             backgroundColor: '#4169E1',
